@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+  /* border: red 1px solid; */
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-bottom: 5rem;
+  background-color: #e9e9e0;
+}
+
+.logo-nav {
+  width: 120%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo-nav:hover {
+    animation: App-logo-spin infinite 0.5s linear;
+  }
+}
+
+@keyframes logo-nav {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-container {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.profile-image-upload img {
+  max-width: 60%;
+  max-height: 30vh;
+}
+
+#navpadding {
+  background: none;
+  padding: 28px 0;
+}
+
+.topnav {
+  background-color: #ffdab9c2;
+}
+
+.scroll {
+  height: 400px;
+  overflow-y: scroll;
+}
+.jumbotron.jumbotop, .jumbotron.jumboacc {
+  background-image: url("https://images.pexels.com/photos/2817419/pexels-photo-2817419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  margin-top: 63px;
+  padding-top: 63px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 37.6%;
+  opacity: 0.85;
+}
+
+.jumbotron.jumbocat {
+  background-image: url("https://images.pexels.com/photos/3250642/pexels-photo-3250642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  margin-top: 63px;
+  padding-top: 63px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 55%;
+  opacity: 0.85;
+}
+
+.jumbotron.jumboboard {
+  margin: 0;
+  margin-top: 63px;
+  background-image: url("https://images.pexels.com/photos/37337/cat-silhouette-cats-silhouette-cat-s-eyes.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.85;
+}
+
+#jumbo {
+  background-image: url("https://images.pexels.com/photos/2817419/pexels-photo-2817419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.85;
+  height: 480px;
+  margin-bottom: 0em;
+  padding-top: 108px;
+}
+
+#cat-holder{
+  background-color: #110c09d2;
+  padding: 50px 0 50px 0;
+}
+#profile-name{
+  background-color: #110c09d2;
+  padding: 20px 0 30px 50px;
+}
+
+.jumboheader {
+  background-color: #eddcd294;
+  padding: 20px 0 20px 0;
+}
+
+#title-container {
+  background-color: #eddcd294;
+  margin-top: 3em;
+}
+.to-link:hover {
+  cursor: pointer;
+}
+
+.thewholenavbar {
+  background-color: #cb997e;
+  opacity: .85;
+  width: 100%;
+}
+
+#dashie {
+  background-color: #eddcd2;
+  /* padding: 5px 10px; */
+}
+
+#dashie:hover {
+  background-color: #fcbf49;
+}
+
+#search {
+  background-color: #eddcd2;
+}
+
+#search:hover {
+  background-color: #fcbf49;
+}
+
+#logout {
+  background-color: #eddcd2;
+}
+
+#logout:hover {
+  background-color: #fcbf49;
+}
+
+#dash-preview {
+  margin: 0;
+  padding: 10px;
+  background: none;
+  /* border: 10px solid #ffddd2; */
+}
+
+#dash-image {
+  margin-right: 0;
+  /* margin: 1em; */
+  border-radius: 10px;
+}
+
+#btnprofile {
+  margin-top: 40px;
+  background-color: #02c39a;
+}
+
+#btnprofile:hover {
+  background-color: #00a896;
+}
+
+.fav-track-dash {
+  background-color: #293241;
+}
+
+.learn-container {
+  padding: 2rem;
+}
+
+#footerz {
+  padding: 0.5rem;
+  background-color: #ffdab9c2;
+}
+
+.pad-thai {
+  width: 98%;
+  margin: 0 auto;
+}
+
+#login {
+  background-color: #EDDCD2;
+}
+
+#login:hover {
+  background-color: #FCBF49;
+}
+
+#register {
+  background-color: #EDDCD2;
+}
+
+#register:hover {
+  background-color: #FCBF49;
+}
+
+#btn-unfollow {
+  background-color: #e63946;
+  opacity: .85;
+  border-color: none;
+  color: white;
+}
+
+#btn-unfollow:hover {
+  background-color: #e5989b;
+  opacity: .85;
+  border-color: none;
+}
+
+#btn-follow-tracked {
+  margin: 10px;
+  background-color: #02c39a;
+  color: white;
+}
+
+#btn-follow-tracked:hover {
+  background-color: #00a896;
+  color: white;
+}
+
+#btn-unfollow-tracked {
+  margin: 10px;
+  background-color: #e63946;
+  color: white;
+}
+
+#btn-search {
+  background-color: #89b0ae;
+  border: none;
+}
+
+#btn-search-results {
+  background-color: #197278;
+  color: white;
+  border: none;
+}
+
+#btn-search-results:hover {
+  background-color: #00afb9;
+  color: white;
+  border: none;
+}
+
+#btn-edit-profile {
+  background-color: #ddbea9;
+  border: none;
+}
+
+#btn-edit-profile:hover {
+  background-color: #f4a261;
+  border: none;
+}
+
+#btn-change-picture {
+  background-color: #e76f51;
+  border: none;
+  color: white;
+}
+
+#btn-change-picture:hover {
+  background-color: #f4a261;
+  border: none;
+}
+
+#btn-remove-picture {
+  background-color: #e63946;
+  color: white;
+  /* border: none; */
+}
+
+#btn-remove-picture:hover {
+  background-color: #e5989b;
+  border: none;
+}
+
+#btn-add-search {
+  background-color: #4ecdc4;
+  border: none;
+}
+
+#btn-add-search:hover {
+  background-color: #006d77;
+  border: none;
+}
+
+#btn-unfollowing-cat {
+  background-color: #e63946;
+  color: white;
+  border: none;
+}
+#btn-unfollowing-cat:hover {
+  background-color: #e5989b;
+  border: none;
+}
+
+#btn-follow-cat {
+  background-color: #02c39a;
+  border: none;
+}
+
+#btn-follow-cat:hover {
+  background-color: #00a896;
+  border: none;
+}
+
+#btn-cat-missing {
+  background-color: #e63946;
+  color: white;
+}
+
+#btn-cat-missing:hover {
+  background-color: #e5989b;
+}
+
+#btn-edit-cat {
+  background-color: #ddbea9;
+  border: none;
+}
+
+#btn-edit-cat:hover {
+  background-color: #f4a261;
+  border: none;
+}
+
+#btn-search-community {
+  background-color: #463f3a;
+  border: none;
+}
+
+#btn-search-community:hover {
+  background-color: #403d39;
+  border: none;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden;
+}
+
+a:hover {
+  text-shadow: 1px 1px 2px #4B4B4B;
+}
+
+#uncontrolled-tab-example-tab-comment {
+  color: #6F6F6F;
+}
+
+#uncontrolled-tab-example-tab-comment.active {
+  color: #4B4B4B;
+}
+
+#uncontrolled-tab-example-tab-photos {
+  color: #6F6F6F;
+}
+
+#uncontrolled-tab-example-tab-photos.active {
+  color: #4B4B4B;
+}
+
+#uncontrolled-tab-example-tab-feeding {
+  color: #6F6F6F;
+}
+
+#uncontrolled-tab-example-tab-feeding.active {
+  color: #4B4B4B;
+}
